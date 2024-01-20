@@ -1,0 +1,19 @@
+stages:
+  - build
+  - testing
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - echo "Собираемся красиво... 🛠️"
+
+test_job:
+  stage: testing
+  script:
+    - echo "Тестируем нежно... 🧪"
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Разворачиваемся мягко... 🚀"
